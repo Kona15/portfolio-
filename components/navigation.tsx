@@ -27,7 +27,14 @@ export function Navigation() {
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-xl font-bold text-foreground">codenesx</div>
+          <div className="flex items-center">
+  <img
+    src="/logo2.png"
+    alt="codenesX"
+    className="h-12 w-auto" // controls size consistently
+  />
+</div>
+
           <div className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection("about")}
