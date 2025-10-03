@@ -29,9 +29,9 @@ export function Navigation() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
   <img
-    src="/logo2.png"
+    src="/logo 35.png"
     alt="codenesX"
-    className="h-12 w-auto" // controls size consistently
+    className="h-15 w-auto" // controls size consistently
   />
 </div>
 
