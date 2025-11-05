@@ -21,7 +21,7 @@ export function ContactSection() {
     // Handle form submission here
     const subject = encodeURIComponent(`Portfolio Contact: ${formData.name}`)
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)
-    window.location.href = `mailto:konapraise1501@gmail.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:praisefemi1501@gmail.com?subject=${subject}&body=${body}`
     // Reset form
     setFormData({ name: "", email: "", message: "" })
   }
@@ -54,7 +54,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <div className="font-medium text-foreground">Email</div>
-                    <div className="text-muted-foreground">konapraise1501@gmail.com</div>
+                    <div className="text-muted-foreground">praisefemi1501@gmail.com</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
