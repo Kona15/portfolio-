@@ -9,7 +9,7 @@ export function AboutSection() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/professional-developer-portrait.png"
+                src="/codenesx.jpeg"
                 alt="Femi-Makinsun Praise - Full Stack Developer"
                 className="rounded-lg shadow-lg w-full max-w-md mx-auto"
               />
