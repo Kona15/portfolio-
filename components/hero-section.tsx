@@ -56,7 +56,7 @@ export function HeroSection() {
               <Mail size={24} />
             </a>
             <a
-              href="https://instagram.com/codenesx"
+              href="https://instagram.com/codenesx15"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-accent transition-colors"
