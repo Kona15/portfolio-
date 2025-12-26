@@ -16,13 +16,13 @@ export function AboutSection() {
             </div>
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                My journey in web development started with a curiosity about how websites work, and it has evolved into
-                a career focused on building scalable, accessible, and performant web applications.
+                My journey in technology began with a curiosity about how the web works, which has since evolved into a
+                 career focused on building scalable web applications and data-driven machine learning solutions.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                As a full stack developer based in Lagos, Nigeria, I'm passionate about creating digital solutions that
-                make a real impact. I specialize in modern web technologies and have a keen eye for both user experience
-                and robust backend architecture.
+                As a Computer Science graduate based in Lagos, I specialize in bridging the gap between robust backend
+                 architecture and intelligent data models. Whether I'm building responsive interfaces with React or training 
+                 NLP models for indigenous languages, I am passionate about creating digital solutions that make a real impact.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <Card className="p-4 text-center">

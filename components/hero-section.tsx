@@ -15,10 +15,10 @@ export function HeroSection() {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 text-balance">Femi-Makinsun Praise</h1>
-          <h2 className="text-2xl md:text-3xl text-muted-foreground mb-8 text-balance">Full Stack Developer</h2>
+          <h2 className="text-2xl md:text-3xl text-muted-foreground mb-8 text-balance">Fullstack & Machine Learning Developer</h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto text-pretty">
             My journey in web development started with a curiosity about how websites work, and it has evolved into a
-            career focused on building scalable, accessible, and performant web applications.
+            career focused on building scalable, accessible, and performant web applications and data-driven machine learning solutions.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <Button

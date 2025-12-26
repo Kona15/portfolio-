@@ -9,7 +9,6 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "Codenesx - Web Developer",
   description: "Professional web developer specializing in modern web technologies and user experiences",
-  generator: "v0.app",
 }
 
 export default function RootLayout({

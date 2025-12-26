@@ -13,21 +13,21 @@ const projects = [
     githubUrl: "https://github.com/vercel/commerce",
   },
   {
-    title: "Task Management App",
+    title: "Yoruba Text Classification Model",
     description:
-      "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    image: "/task-management-dashboard.png",
-    tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-    liveUrl: "https://trello.com/demo",
+      "A machine learning-powered system designed to classify Yoruba news articles into five categories: Politics, Sports, Entertainment, Health, and Business.",
+    image: "/yoruba.JPG",
+    tech: ["Python", "Scikit-learn", "Tailwind CSS", "TF-IDF", "Next.js"],
+    liveUrl: "https://yoruba-news-classifier.vercel.app",
     githubUrl: "https://github.com/yogeshojha/react-kanban-board",
   },
   {
-    title: "Weather Dashboard",
+    title: "University Surveillance & Guidance System",
     description:
-      "A responsive weather application that provides detailed forecasts, interactive maps, and location-based weather alerts.",
-    image: "/weather-app-dashboard-interface.jpg",
-    tech: ["Vue.js", "Express", "Weather API", "Chart.js"],
-    liveUrl: "https://openweathermap.org/weathermap",
+      "A comprehensive web-based platform. It features administrative oversight for security and a student dashboard for navigation and communication",
+    image: "/surveilance.JPG",
+    tech: ["PHP", "MySQL", "Bootstrap", "HTML", "CSS"],
+    liveUrl: "https://guidance.rf.gd/BOUESTI-SmartCollege",
     githubUrl: "https://github.com/iamstevendao/vue-weather-app",
   },
   {
