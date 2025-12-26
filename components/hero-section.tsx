@@ -9,6 +9,9 @@ export function HeroSection() {
     element?.scrollIntoView({ behavior: "smooth" })
   }
 
+  // Your specific Google Drive link
+  const resumeLink = "https://drive.google.com/file/d/11GdFbWeHQr1jEgWsLeNHI4LQ3UeQI5Vt/view?usp=drive_link"
+
   return (
     <section className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-background to-muted">
       <div className="absolute inset-0 bg-[url('/abstract-code-pattern-background.jpg')] opacity-5 bg-cover bg-center" />
@@ -28,10 +31,19 @@ export function HeroSection() {
             >
               View My Work
             </Button>
-            <Button variant="outline" size="lg" className="px-8 bg-transparent">
-              Download Resume
+            
+            {/* Download Resume Button with Link */}
+            <Button variant="outline" size="lg" className="px-8 bg-transparent" asChild>
+              <a 
+                href={resumeLink} 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Download Resume
+              </a>
             </Button>
           </div>
+
           <div className="flex items-center justify-center gap-6">
             <a
               href="https://github.com"
