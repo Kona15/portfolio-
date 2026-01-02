@@ -72,94 +72,7 @@ npm run build
 npm start
 \`\`\`
 
-## 📝 Customization Guide
 
-### Update Personal Information
-
-1. **Hero Section** (`components/hero-section.tsx`):
-   - Update name, title, and description
-   - Change profile image path in `public/` folder
-
-2. **About Section** (`components/about-section.tsx`):
-   - Modify bio text
-   - Update stats (years of experience, projects, etc.)
-
-3. **Contact Information** (`components/contact-section.tsx`):
-   - Update email address
-   - Add your phone number
-   - Update social media links
-
-### Add Your Projects
-
-Edit `components/projects-section.tsx`:
-
-\`\`\`tsx
-{
-  title: "Your Project Name",
-  description: "Project description here",
-  technologies: ["Tech1", "Tech2", "Tech3"],
-  demoUrl: "https://your-live-demo.com",
-  year: 2024
-}
-\`\`\`
-
-### Update Skills
-
-Edit `components/skills-section.tsx`:
-
-\`\`\`tsx
-{
-  name: "Your Skill",
-  proficiency: 85 // 0-100 percentage
-}
-\`\`\`
-
-### Change Color Scheme
-
-Edit `app/globals.css` and update the CSS custom properties:
-
-\`\`\`css
-@theme inline {
-  --color-accent: #003d82; /* Navy Blue */
-  /* Update other colors as needed */
-}
-\`\`\`
-
-## 📞 Contact Form Setup
-
-The contact form in `components/contact-section.tsx` currently displays contact information. To make it fully functional with email sending:
-
-1. **Option A**: Use a service like Formspree or EmailJS
-2. **Option B**: Create a backend API route in `app/api/contact/route.ts`
-
-Current email: `konapraise1501@gmail.com`
-
-## 🚀 Deployment
-
-### Deploy to Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Vercel will automatically deploy on every push
-
-\`\`\`bash
-npm run build
-# Then push to GitHub and deploy via Vercel
-\`\`\`
-
-### Deploy to Other Platforms
-
-**Netlify:**
-\`\`\`bash
-npm run build
-# Deploy the `.next` folder
-\`\`\`
-
-**Self-Hosted:**
-\`\`\`bash
-npm run build
-npm start
-\`\`\`
 
 ## 📦 Dependencies Overview
 
@@ -180,13 +93,7 @@ npm start
 - ✅ SEO optimized with metadata
 - ✅ Accessible components (WCAG compliant)
 
-## 🔧 Available Scripts
-
-\`\`\`bash
-npm run dev      # Start development server
-npm run build    # Build for production
-npm start        # Start production server
-npm run lint     # Run ESLint
+#
 \`\`\`
 
 ## 📄 License
@@ -196,7 +103,7 @@ This project is open source and available under the MIT License.
 ## 👤 Author
 
 **Femi-Makinsun Praise**
-- Email: konapraise1501@gmail.com
+- Email: praisefemi1501@gmail.com
 - Phone: +234 8161378825
 - Location: Lagos, Nigeria
 - Instagram: @codenesx
