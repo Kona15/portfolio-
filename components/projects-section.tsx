@@ -35,7 +35,7 @@ const projects = [
     description:
       "A modern, responsive portfolio website showcasing creative work with smooth animations and optimized performance.",
     image: "/creative-portfolio-website.png",
-    tech: ["Gatsby", "GraphQL", "Contentful", "GSAP"],
+    tech: ["React", "GraphQL", "Typescript", "Tailwind CSS"],
     liveUrl: "https://gatsby-portfolio-demo.netlify.app",
     githubUrl: "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
   },
